@@ -1,0 +1,159 @@
+/* 
+Portfolio - Bootstrap 
+créé le 24/04/2023
+Auteur : Sandrine Faucher 
+*/
+
+/* Global */
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+h1{
+    font-family: "tajawal", sans serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px;
+    color: #2D3142;
+}
+
+h2{
+    font-family: "tajawal", sans serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    color: #2D3142;
+}
+h2::after{
+    display: block;
+    border-bottom: 6px #EF8354 dotted;
+    height: 2px;
+    width: 500px;
+    content: "";
+    margin:0 auto;
+    margin-top: 30px;
+    
+}
+
+h3{
+    font-family: "tajawal", sans serif;
+    font-size: 30px;
+    color: #4F5D75;
+    font-weight: 600;
+    text-align: center;
+
+}
+p{
+    font-family: "tajawal", sans serif;
+    font-weight: 600;
+    font-size: x-large;
+    text-justify: inter-word;
+    text-align: justify;
+    color: #4F5D75;
+    
+
+}
+
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* fonts */
+
+
+
+
+/* colors */
+
+
+/* HEADER - NAVBAR */
+
+nav img{
+    width: 300px;
+    margin-left: 30px;
+    
+}
+
+.navbar-nav{
+    font-family: "tajawal", sans serif;
+    font-weight: 600;
+    font-size: x-large;
+    
+}
+.navbar-nav a{
+    margin:20px;
+    color:#4F5D75
+}
+
+
+/* SECTION 1 : profil */
+
+
+#profil img{
+    width: 95%;
+    height: auto;
+    margin: 30px;
+    border-radius: 10px;
+               
+}
+#profil p{
+
+    margin-left: 50px;
+    margin-top: 20px;
+}
+button{
+    padding:10px;
+    background-color: #EF8354;
+    border-radius: 10px;
+    border-color: #EF8354;
+    color:white;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+/* SECTION 2 : compétences */
+
+.container{
+    margin: auto;
+}
+#competences img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#competences p{
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #4F5D75;
+    
+}
+
+.vignettes{
+
+    box-shadow: 0 0 5px #4F5D75;
+    color: #2D3142;
+    border-radius:20px;
+    margin:3px;
+    padding: 10px;
+    height: 430px;
+}
+
+/* HEADER - NAVBAR */
+
+i{
+   
+
+
+}
