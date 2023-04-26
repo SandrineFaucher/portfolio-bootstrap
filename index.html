@@ -16,20 +16,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+
     <!--lien avec la feuille de style.css-->
     <link rel="stylesheet" href="./style.css">
 
-    <title>portfolio</title>
+    <title>book-sandrine-faucher</title>
 </head>
 
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bs-body-tertiary">
+        <nav class="navbar navbar-expand-lg bs-body-tertiary fixed-top">
             <img src="./ressources/logoportefolio.png">
 
-            <div class="container-fluid">
+            <div class="container-fluid ml-5">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -119,7 +120,7 @@
                         <p>M'étant formée, en autodidacte, au design graphique, j'ai eu l'opportunité de réaliser des
                             identités visuelles et collaborer au sein de ma commune avec la comission de communication
                             pour
-                            la mise en page du journal trimestriel, de flyers et d'affiches. </p>
+                            la mise en page du journal trimestriel, des flyers et des affiches. </p>
                     </div>
                 </div>
 
@@ -153,35 +154,39 @@
     <section id="technologies">
         <div class="row">
             <div class="col-md-12">
-                <h2>Outils et technologies en cours d'acquisition</h2>
+                <h2>Outils et technologies étudiés</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="outils">
-                    <h3>Partie front-end</h3>
-                    <div class="icons">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
+            <div class="col-lg-4 outils mb-5 mb-md-0">
+                <h3>Partie front-end</h3>
+                <div class="icons text-center">
+                    <img src="./ressources/html.png" alt="logo-html">
+                    <img src="./ressources/css-3.png" alt="logo-css">
+                    <img src="./ressources/bootstrap-détouré.png" alt="logo-bootsrap">
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="outils">
-                    <h3>Partie back-end</h3>
-                    <div class="icons">
-
-                    </div>
+            <div class="col-lg-4 outils mb-5 mb-md-0">
+                <h3>Partie back-end</h3>
+                <div class="icons text-center">
+                    <img src="./ressources/script-java.png" alt="logo-javascript">
+                    <img src="./ressources/java.png" alt="logo-java">
+                    <img src="./ressources/logovuejs-détouré.png" alt="logo-vuejs">
+                    <img src="./ressources/php.png" alt="logo-php">
+                    <img src="./ressources/logo-laravel-icon-512x352-a4y12ths.png" alt="logo-laravel">
+                    <img src="./ressources/logo-mysql-détouré.png" alt="logo-mysql">
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="outils">
-                    <h3>logiciels et outils</h3>
-                    <div class="icons">
-
-                    </div>
+            <div class="col-lg-4 outils mb-5 mb-md-0">
+                <h3>logiciels et outils</h3>
+                <div class="icons text-center">
+                    <img src="./ressources/logo-adobe-photoshop.png" alt="logo-photoshop">
+                    <img src="./ressources/adobe-illustrator.png" alt="logo-illustrator">
+                    <img src="./ressources/logo-adobe-indesign.png" alt="logo-indesign">
+                    <img src="./ressources/git.png" alt="logo-git">
                 </div>
             </div>
         </div>
@@ -191,31 +196,102 @@
 
     <section id="portfolio">
         <div class="row">
-            <div class="book">
-                
+            <div class="col-md-12">
+                <h2>Mes projets</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 top-left-square">
+                <div class="row">
+                    <a href=" https://sandrinefaucher.github.io/sitekomewaza/">
+                        <h3>Projet de site flex-box en responsive</h3>
+                    </a>
+                </div>
+                <img src="./ressources/mobile détouré.png" alt="mobile-komewaza" class="mobile">
+                <img src="./ressources/ordinateur kome waza.png" alt="ordinateur-sitekomewaza" class="ordi">
+            </div>
+
+            <div class="col-md-6 top-right-square">
+                <div class="row">
+                    <a href="https://sandrinefaucher.github.io/carte-de-visite/ ">
+                        <h3>Création d'une carte de visite en ligne</h3>
+                    </a>
+                </div>
+                <img src="./ressources/ordi-carte-de-visite.png" alt="ordi-avec-carte-de-visite"
+                    class="ordi-carte-de-visite">
+            </div>
+            <div class="row">
+                <div class="col-md-6 bottom-left-square d-flex-justify-content-center">
+                    <img src="./ressources/tablette-art-du-the.png" alt="tablette-site-du-the" class="site-du-the">
+                    <div class="row">
+                        <a href="https://sandrinefaucher.github.io/site-du-th-/">
+                            <h3>Site du Thé avec Bootstrap</h3>
+                        </a>
+                    </div>
+                </div>
 
 
+
+
+
+            </div>
+
+    </section>
+    <!--Section 5 - Contact-->
+
+    <section id="contact">
+
+        <h2>Me contacter</h2>
+
+
+
+        <div class="row" class="vignettes-contact">
+            <div class="col-md-4 text-center">
+                <img src="./ressources/telephone.png" alt="logo-mobile">
+                <p>06 98 69 55 99</p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="./ressources/enveloppe-de-courrier-electronique.png" alt="logo-mail">
+                <p>sandrinefaucher2606@gmail.com</p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./ressources/logo-linkedin.png" alt="logo-inkedin">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./ressources/facebook-messenger.png" alt="logo-messenger">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./ressources/logo-de-lapplication-facebook.png" alt="logo-facebook">
+                    </div>
+                </div>
             </div>
 
         </div>
 
 
+        </div>
 
-
+        </div>
 
 
 
     </section>
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     <!--Lien bootstrap pour le script js-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
