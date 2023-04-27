@@ -6,12 +6,12 @@ Auteur : Sandrine Faucher
 
 /* Global */
 
-body{
+body {
     margin-top: 200px;
 
 }
 
-h1{
+h1 {
     font-family: "tajawal", sans serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -20,26 +20,27 @@ h1{
     color: #2D3142;
 }
 
-h2{
+h2 {
     font-family: "tajawal", sans serif;
     font-weight: 800;
     font-size: 40px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     color: #2D3142;
 }
-h2::after{
+
+h2::after {
     display: block;
     border-bottom: 6px #EF8354 dotted;
     height: 2px;
     width: 500px;
     content: "";
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 30px;
-    
+
 }
 
-h3{
+h3 {
     font-family: "tajawal", sans serif;
     font-size: 30px;
     color: #4F5D75;
@@ -47,16 +48,17 @@ h3{
     text-align: center;
 
 }
-p{
+
+p {
     font-family: "tajawal", sans serif;
     font-weight: 600;
     font-size: x-large;
     text-justify: inter-word;
-    
-    color: #4F5D75; 
+
+    color: #4F5D75;
 }
 
-section{
+section {
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 20px;
@@ -82,50 +84,54 @@ corail = #EF8354;
 
 
 /* HEADER - NAVBAR */
-.navbar{
+.navbar {
     box-shadow: 5px 5px 20px #4F5D75;
 
 }
-nav img{
+
+nav img {
     width: 200px;
     margin-left: 30px;
-    
+
 }
 
-.navbar-nav{
+.navbar-nav {
     font-family: "tajawal", sans serif;
     font-weight: 600;
     font-size: x-large;
-    
+
 }
-.navbar-nav a{
-    margin:20px;
-    color:#4F5D75
+
+.navbar-nav a {
+    margin: 20px;
+    color: #4F5D75
 }
 
 
 /* SECTION 1 : profil */
 
 
-#profil img{
+#profil img {
     width: 95%;
     height: auto;
     margin: 30px;
     border-radius: 10px;
-               
+
 }
-#profil p{
+
+#profil p {
 
     margin-left: 50px;
     margin-top: 20px;
     text-align: justify;
 }
-button{
-    padding:10px;
+
+button {
+    padding: 10px;
     background-color: #EF8354;
     border-radius: 10px;
     border-color: #EF8354;
-    color:white;
+    color: white;
     text-align: center;
     margin-left: 50px;
     margin-top: 10px;
@@ -135,59 +141,58 @@ button{
 /* SECTION 2 : compétences */
 
 
-#competences img{
+#competences img {
     display: block;
     margin: auto;
     width: 60%;
 }
 
-#competences p{
+#competences p {
     font-size: 18px;
     margin-bottom: 0;
     color: #4F5D75;
     text-align: justify;
 }
 
-.vignettes{
+.vignettes {
 
     box-shadow: 0 0 5px #4F5D75;
     color: #2D3142;
-    border-radius:20px;
-    margin:3px;
+    border-radius: 20px;
+    margin: 3px;
     padding: 10px;
     height: 430px;
 }
 
 /* TECHNOLOGIES - LOGICIELS & OUTILS */
 
-#technologies img{
+#technologies img {
 
     width: 120px;
     text-align: center;
-    margin:15px;
+    margin: 15px;
 }
-.outils{
-   background:linear-gradient(#EF8354, #ffff);
-   height: 600px;
-   border-radius: 20px;
-   margin: auto;
+
+.outils {
+    background: linear-gradient(#EF8354, #ffff);
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
 
 }
-#technologies h3{
+
+#technologies h3 {
     color: white;
 }
 
 
 /* PORTFOLIO  */
 
-#portfolio .ordi{
-   width: 350px;
-}
-#portfolio .mobile{
+#portfolio .mobile {
     rotate: -20deg;
 }
 
-.top-left-square{
+.top-left-square {
     width: 50%;
     height: auto;
     background-color: #4F5D75;
@@ -200,11 +205,11 @@ button{
     color: #2D3142 !important;
 }
 
-#portfolio a{
+#portfolio a {
     text-decoration: none;
 }
 
-.top-right-square{
+.top-right-square {
     width: 50%;
     height: auto;
     background-color: #EF8354;
@@ -213,12 +218,7 @@ button{
     padding-top: 40px;
 }
 
-.ordi-carte-de-visite{
-    width: 400px;
-    margin:30px;
-}
-
-.bottom-left-square{
+.bottom-left-square {
     width: 50%;
     height: auto;
     background-color: #EF8354;
@@ -226,8 +226,8 @@ button{
     border-radius: 150px 0px 200px 200px;
     padding-bottom: 40px;
 }
-.bottom-right-square{
 
+.bottom-right-square {
     width: 50%;
     height: auto;
     background-color: #4F5D75;
@@ -235,25 +235,24 @@ button{
     border-radius: 0px 150px 200px 200px;
     padding-bottom: 40px;
 }
-.ordi-navbar{
-    width: 350px;
-    margin:30px;
 
+.ordi {
+    width: 350px;
+    margin: 30px;
 }
 
 /* CONTACT  */
 
-#contact{
+#contact {
     background: linear-gradient(#ffff, #EF8354);
-    
 }
 
-#contact img{
+#contact img {
     width: 30px;
     margin: 20px;
 }
 
-#contact p{
+#contact p {
     color: #2D3142;
     font-weight: 1000;
 }
@@ -262,12 +261,43 @@ button{
 
 /* Media querie - 1024  (tabelletes et téléphones) */
 
-@media screen and (max-width: 992px) {
-    .outils{
-        height: auto;
+@media screen and (max-width: 1100px) {
+    #portfolio h3 {
+        font-size: 20px;
+    }
+
+    #portfolio img {
+        width: 250px;
+    }
+
+    #portfolio .mobile {
+        width: auto;
 
     }
-    
 }
 
 
+@media screen and (max-width: 992px) {
+    .outils {
+        height: auto;
+    }
+
+    .top-left-square,
+    .top-right-square {
+        width: 100%;
+        height: auto;
+        border-radius: 50px 50px 50px 50px;
+
+    }
+
+    .bottom-left-square,
+    .bottom-right-square {
+        width: 100%;
+        height: auto;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    .vignettes {
+        height: auto;
+    }
+}
