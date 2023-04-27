@@ -7,6 +7,8 @@ Auteur : Sandrine Faucher
 /* Global */
 
 body {
+    margin:0;
+    paddiing:0;
     margin-top: 200px;
 
 }
@@ -203,6 +205,8 @@ button {
 
 #portfolio h3 {
     color: #2D3142 !important;
+    font-size: 25px;
+    
 }
 
 #portfolio a {
@@ -227,7 +231,7 @@ button {
     padding-bottom: 40px;
 }
 
-.bottom-right-square {
+.bottom-right-square{
     width: 50%;
     height: auto;
     background-color: #4F5D75;
