@@ -4,6 +4,20 @@ créé le 24/04/2023
 Auteur : Sandrine Faucher 
 */
 
+/* fonts :
+Google font = "Tajawal", sans serif;
+"Permanent Marker", cursive;
+
+*/
+
+
+/* colors : 
+gris (bronze à canon) = #2D3142;
+gris (gris de payne) = #4F5D75; 
+corail = #EF8354;
+
+*/
+
 /* Global */
 
 body {
@@ -14,12 +28,13 @@ body {
 }
 
 h1 {
-    font-family: "tajawal", sans serif;
+    font-family: "Permanent Marker", cursive;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
     padding: 30px;
     color: #2D3142;
+    rotate: -2deg;
 }
 
 h2 {
@@ -48,6 +63,7 @@ h3 {
     color: #4F5D75;
     font-weight: 600;
     text-align: center;
+    padding: 10px;
 
 }
 
@@ -71,44 +87,26 @@ section {
 
 
 
-/* fonts :
-Google font = "Tajawal", sans serif;
 
-*/
-
-
-/* colors : 
-gris (bronze à canon) = #2D3142;
-gris (gris de payne) = #4F5D75; 
-corail = #EF8354;
-
-*/
 
 
 /* HEADER - NAVBAR */
 .navbar {
     box-shadow: 5px 5px 20px #4F5D75;
-
 }
-
 nav img {
     width: 200px;
     margin-left: 30px;
-
 }
-
 .navbar-nav {
     font-family: "tajawal", sans serif;
     font-weight: 600;
     font-size: x-large;
-
 }
-
 .navbar-nav a {
     margin: 20px;
     color: #4F5D75
 }
-
 
 /* SECTION 1 : profil */
 
@@ -146,7 +144,8 @@ button {
 #competences img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 40%;
+    padding:10px;
 }
 
 #competences p {
@@ -154,6 +153,7 @@ button {
     margin-bottom: 0;
     color: #4F5D75;
     text-align: justify;
+    padding: 15px;
 }
 
 .vignettes {
@@ -162,9 +162,15 @@ button {
     color: #2D3142;
     border-radius: 20px;
     margin: 3px;
-    padding: 10px;
-    height: 430px;
+    padding: 3px;
+    height: 400px;
+    
 }
+#competences .image-secretaire{
+    width: 35%;
+}
+
+
 
 /* TECHNOLOGIES - LOGICIELS & OUTILS */
 
