@@ -109,23 +109,17 @@ nav img {
 }
 
 /* SECTION 1 : profil */
-
-
 #profil img {
     width: 95%;
     height: auto;
     margin: 30px;
     border-radius: 10px;
-
 }
-
 #profil p {
-
     margin-left: 50px;
     margin-top: 20px;
     text-align: justify;
 }
-
 button {
     padding: 10px;
     background-color: #EF8354;
@@ -135,7 +129,6 @@ button {
     text-align: center;
     margin-left: 50px;
     margin-top: 10px;
-
 }
 
 /* SECTION 2 : compétences */
